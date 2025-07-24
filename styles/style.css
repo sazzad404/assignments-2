@@ -7,6 +7,7 @@
 
 body {
 	margin: 0;
+	
 }
 /* shered styles */
 .p-color {
@@ -15,7 +16,7 @@ body {
 .primary-btn {
 	background-color: #e95a08;
 	color: white;
-	width: 300px;
+	/* width: 300px; */
 	padding: 20 50px;
 	height: 50px;
 	border: 0;
@@ -107,6 +108,9 @@ body {
 	padding: 20px;
 	text-align: center;
 	height: auto;
+}
+.card1 img{
+	width: 100%;
 }
 .card1 h5 {
 	font-weight: 600;
@@ -334,9 +338,7 @@ span {
 	.plants .title p br {
 		display: none;
 	}
-	.all-cards {
-		grid-template-columns: repeat(2, 1fr);
-	}
+	
 	.all-cards {
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
@@ -347,9 +349,11 @@ span {
 	}
 
 	.card1 {
-		width: 100%;
+		overflow: hidden;
+		width: 80%;
 		max-width: 100%;
 		text-align: center;
+		padding: 0;
 	}
 
 	/* plant lover */
