@@ -410,10 +410,11 @@ span {
 	.join{
 		height: 300px;
 		width: 100%;
+		/* margin-left: 8px; */
 		
 	}
 	.form .email{
-		width: 200px;
+		width: auto;
 		height:50px ;
 	}
 	.form .email-btn{
